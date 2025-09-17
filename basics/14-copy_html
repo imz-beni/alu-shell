@@ -1,10 +1,2 @@
 #!/bin/bash
-
-for file in *.html; do
-    if [ -f "../$file" ] && [ "$file" -ot "../$file" ]; then
-        # File exists in parent and is older, do nothing
-        continue
-    else
-        cp "$file" "../$file"
-    fi
-done
+cp -u *.html ../
