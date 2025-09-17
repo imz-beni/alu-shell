@@ -1,0 +1,2 @@
+#!/bin/bash
+mv /alu-shell/basics/betty /tmp/my_first_directory/
